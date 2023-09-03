@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+}
+
+.footer, 
+.content-dark,
+.header {
+    background-color: #1F2937;
+    color:white;
+}
+
+.header h2 {
+    font-size: 24px;
+    color:#f9faf8;
+}
+
+.header li {
+    font-size: 18px;
+    color: #e5e7eb;
+    list-style-type: none;
+}
+
+.content-info h4 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.cards h4 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.button, .cta {
+    background-color: #3882f6;
+    color:#f9faf8;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.header {
+    display:flex;
+    justify-content: space-around;
+}
+
+.header ul {
+    display:flex;
+    justify-content: space-evenly;
+    gap:16px;
+}
